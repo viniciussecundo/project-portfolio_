@@ -1,78 +1,166 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Turbine Tech é uma agência de crescimento digital para varejo local com marketing, tecnologia, automação e inteligência artificial."
+    />
+    <meta name="theme-color" content="#050505" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project-portifolio</title>
+    <title>Turbine Tech — Crescimento digital para varejo</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="container">
-      <div id="profile">
-        <img src="./assets/avatar,json.png" alt="icon" />
-        <p>@viniciussecundo</p>
-      </div>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Turbine Tech início">
+        <span class="brand-mark">TT</span>
+        <span>Turbine Tech</span>
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#processo">Processo</a>
+        <a href="#cases">Cases</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="header-cta" href="https://wa.me/5500000000000?text=Quero%20um%20diagn%C3%B3stico%20da%20Turbine%20Tech" target="_blank" rel="noreferrer">
+        Orçamento
+      </a>
+    </header>
 
-      <div id="switch" onclick="toggleMode()">
-        <button></button>
-        <span> </span>
-      </div>
+    <main id="top">
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Marketing + IA + automação para comércio local</p>
+          <h1 id="hero-title">O marketing do varejo ficou preso em 2015.</h1>
+          <p class="hero-text">
+            A Turbine Tech conecta mídia, dados, criativos e tecnologia para transformar mercados, farmácias, mecânicas e comércios em máquinas de venda local.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://wa.me/5500000000000?text=Quero%20solicitar%20um%20diagn%C3%B3stico" target="_blank" rel="noreferrer">Solicitar Diagnóstico</a>
+            <a class="btn btn-secondary" href="#cases">Ver Projetos</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="orb orb-green"></div>
+          <div class="orb orb-cyan"></div>
+          <div class="terminal-card">
+            <span class="terminal-dot"></span>
+            <p>retail_growth.exe</p>
+            <strong>+IA<br />+TRÁFEGO<br />+SEO LOCAL</strong>
+          </div>
+          <div class="sticker sticker-one">ANTI<br />AGÊNCIA</div>
+          <div class="sticker sticker-two">#7CFF3B</div>
+        </div>
+      </section>
 
-      <ul>
-        <li>
-          <a href="https://Youtube.com.br" target="_blank">Acessar Youtube</a>
-        </li>
+      <section class="clients reveal" aria-labelledby="clients-title">
+        <p id="clients-title" class="section-kicker">Empresas que aceleramos</p>
+        <div class="ticker" aria-label="Segmentos atendidos">
+          <span>Supermercados</span><span>Mercados de bairro</span><span>Farmácias</span><span>Mecânicas</span><span>Autopeças</span><span>Comércios locais</span>
+        </div>
+      </section>
 
-        <li>
-          <a href="https://X.com" target="_blank">Acessar Twitter</a>
-        </li>
+      <section class="section-grid problems" aria-labelledby="problems-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Problemas que resolvemos</p>
+          <h2 id="problems-title">Menos post bonito. Mais venda rastreável.</h2>
+        </div>
+        <div class="cards cards-2">
+          <article class="card reveal"><span>01</span><h3>Campanhas sem leitura</h3><p>Anúncios rodam, verba some e ninguém sabe o que realmente trouxe cliente.</p></article>
+          <article class="card reveal"><span>02</span><h3>Presença local fraca</h3><p>Seu concorrente aparece no Google antes de você. Isso custa faturamento.</p></article>
+          <article class="card reveal"><span>03</span><h3>Conteúdo genérico</h3><p>Feed bonito não paga boleto. Criativo precisa de estratégia e oferta.</p></article>
+          <article class="card reveal"><span>04</span><h3>Atendimento lento</h3><p>Lead quente esperando resposta vira venda perdida. Automação corrige o vazamento.</p></article>
+        </div>
+      </section>
 
-        <li>
-          <a href="https://Instagram.com" target="_blank">Acessar Instagram</a>
-        </li>
+      <section class="work reveal" aria-labelledby="work-title">
+        <p class="eyebrow">Como trabalhamos</p>
+        <h2 id="work-title">Sistema de crescimento, não pacote de posts.</h2>
+        <div class="work-grid">
+          <div><strong>Diagnóstico</strong><p>Mapeamos oferta, busca local, concorrência e gargalos de conversão.</p></div>
+          <div><strong>Construção</strong><p>Criamos páginas, anúncios, branding e fluxos de automação conectados.</p></div>
+          <div><strong>Otimização</strong><p>Testamos criativos, canais e mensagens com dados semanais.</p></div>
+        </div>
+      </section>
 
-        <li>
-          <a href="https://github.com/viniciussecundo" target="_blank">Ver Meu portifolio</a>
-        </li>
-      </ul>
-      <div id="social-links">
-        <a href="https://github.com/viniciussecundo" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>
-        </a>
+      <section id="servicos" class="services" aria-labelledby="services-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Serviços</p>
+          <h2 id="services-title">Stack completa para vender no bairro e no digital.</h2>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal"><h3>Redes Sociais</h3><p>Conteúdo com posicionamento, oferta e linguagem de varejo.</p></article>
+          <article class="service-card reveal"><h3>Tráfego Pago</h3><p>Campanhas para WhatsApp, loja física, delivery e captação local.</p></article>
+          <article class="service-card reveal"><h3>Landing Pages</h3><p>Páginas rápidas, diretas e construídas para conversão.</p></article>
+          <article class="service-card reveal"><h3>SEO Local</h3><p>Google Business, reputação, buscas de proximidade e mapas.</p></article>
+          <article class="service-card reveal"><h3>Branding + Design</h3><p>Identidade visual forte para não parecer igual ao concorrente.</p></article>
+          <article class="service-card reveal"><h3>IA + Automação</h3><p>Fluxos inteligentes para atendimento, follow-up e análise.</p></article>
+        </div>
+      </section>
 
-        <a href="https://www.instagram.com/viniciussecundo/" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
+      <section id="cases" class="cases reveal" aria-labelledby="cases-title">
+        <p class="eyebrow">Cases</p>
+        <h2 id="cases-title">Projetos em montagem. Estrutura pronta para performance.</h2>
+        <div class="case-shell">
+          <div><span>CASE_01</span><strong>Supermercado local</strong><p>Campanhas sazonais, landing de ofertas e automação no WhatsApp.</p></div>
+          <div><span>CASE_02</span><strong>Farmácia de bairro</strong><p>SEO local, mídia de proximidade e criativos de alta intenção.</p></div>
+        </div>
+      </section>
 
-        <a
-          href="https://www.linkedin.com/in/vinícius-secundo-a541a9165/"
-          target="_blank"
-        >
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a>
+      <section class="differentials section-grid" aria-labelledby="diff-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Diferenciais</p>
+          <h2 id="diff-title">Criatividade com motor técnico.</h2>
+        </div>
+        <ul class="diff-list reveal">
+          <li>Inteligência artificial aplicada a copy, análise e atendimento.</li>
+          <li>Automações para capturar, qualificar e reativar contatos.</li>
+          <li>Estratégias baseadas em dados reais do comércio local.</li>
+          <li>Criativos agressivos, testáveis e conectados à oferta.</li>
+          <li>Performance marketing sem esconder métrica ruim.</li>
+        </ul>
+      </section>
 
-        <a href="https://X.com" target="_blank">
-          <ion-icon name="logo-twitter"></ion-icon>
-        </a>
-      </div>
+      <section id="processo" class="process" aria-labelledby="process-title">
+        <p class="eyebrow reveal">Processo</p>
+        <h2 id="process-title" class="reveal">Da análise ao próximo caixa cheio.</h2>
+        <div class="steps">
+          <article class="reveal"><span>1</span><h3>Raio-X</h3><p>Entendemos produto, margem, região e concorrentes.</p></article>
+          <article class="reveal"><span>2</span><h3>Plano</h3><p>Definimos canais, ofertas, página e automações.</p></article>
+          <article class="reveal"><span>3</span><h3>Execução</h3><p>Publicamos, medimos e ajustamos sem burocracia.</p></article>
+          <article class="reveal"><span>4</span><h3>Escala</h3><p>Reinvestimos no que vende e cortamos ruído.</p></article>
+        </div>
+      </section>
 
-      <footer>Developer by<br />Vinícius Secundo.</footer>
-    </div>
+      <section id="faq" class="faq" aria-labelledby="faq-title">
+        <p class="eyebrow reveal">FAQ</p>
+        <h2 id="faq-title" class="reveal">Perguntas antes do diagnóstico.</h2>
+        <details class="reveal"><summary>Vocês atendem só varejo?</summary><p>O foco é varejo e comércio local, porque a metodologia foi criada para venda regional e alta velocidade de execução.</p></details>
+        <details class="reveal"><summary>Preciso ter site?</summary><p>Não. Se a operação precisar, construímos landing pages leves para campanhas, captação e ofertas específicas.</p></details>
+        <details class="reveal"><summary>Vocês fazem apenas redes sociais?</summary><p>Não trabalhamos como fábrica de posts. Redes sociais entram dentro de um sistema com mídia, SEO, criativos e automação.</p></details>
+      </section>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+      <section class="final-cta reveal" aria-labelledby="cta-title">
+        <p class="eyebrow">Pronto para sair do comum?</p>
+        <h2 id="cta-title">Peça um diagnóstico e veja onde seu varejo está vazando venda.</h2>
+        <a class="btn btn-primary" href="https://wa.me/5500000000000?text=Quero%20um%20or%C3%A7amento%20da%20Turbine%20Tech" target="_blank" rel="noreferrer">Solicitar Orçamento</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <strong>Turbine Tech</strong>
+      <p>Crescimento digital para varejo local.</p>
+      <a href="mailto:contato@turbinetech.com.br">contato@turbinetech.com.br</a>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
